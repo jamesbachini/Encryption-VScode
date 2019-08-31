@@ -1,0 +1,46 @@
+{
+	"name": "encryption",
+	"displayName": "Encryption",
+	"description": "AES Encryption and decryption for current file contents",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.encrypt",
+		"onCommand:extension.decrypt"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.encrypt",
+				"title": "Encrypt"
+			},
+			{
+				"command": "extension.decrypt",
+				"title": "Decrypt"
+			}
+		]
+	},
+	"scripts": {
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.37.0",
+		"eslint": "^5.13.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"vscode-test": "^1.0.2"
+	},
+	"dependencies": {
+		"crypto-js": "^3.1.9-1"
+	}
+}
