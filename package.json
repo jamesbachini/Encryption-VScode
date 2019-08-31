@@ -5,7 +5,7 @@
 	"publisher": "JamesBachini",
 	"repository": "https://github.com/jamesbachini/Encryption-VScode",
 	"version": "1.0.0",
-	"icon": "encryption-vscode.png",
+	"icon": "https://github.com/jamesbachini/Encryption-VScode/raw/master/encryption-vscode.png",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
