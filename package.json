@@ -3,15 +3,29 @@
 	"displayName": "Encryption VScode",
 	"description": "AES encryption and decryption for current file contents in visual stuido code",
 	"publisher": "JamesBachini",
-	"repository": "https://github.com/jamesbachini/Encryption-VScode",
 	"version": "1.0.0",
-	"icon": "https://github.com/jamesbachini/Encryption-VScode/raw/master/encryption-vscode.png",
+	"icon": "encryption-vscode.png",
+	"preview": true,
 	"engines": {
 		"vscode": "^1.37.0"
 	},
-	"categories": [
-		"Other"
-	],
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "Crypto",
+    "Encryption",
+    "AES",
+    "Security",
+    "Cryptography",
+    "Crypto-JS"
+  ],
+  "homepage": "https://github.com/Microsoft/vscode-maven/blob/v0.18.2/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesbachini/Encryption-VScode.git"
+  },
 	"activationEvents": [
 		"onCommand:extension.encrypt",
 		"onCommand:extension.decrypt"
