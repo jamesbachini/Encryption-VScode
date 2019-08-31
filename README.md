@@ -7,11 +7,8 @@ It operates on the current document and replaces the text.
 `CTRL + SHIFT + P` > Type "Encrypt" or "Decrypt" > Enter a pass phrase > current document will be encrypted/decrypted.
 
 ## Repository
+https://github.com/jamesbachini/Encryption-VScode
 
-
-## Known Issues
-
-None
 
 ## Release Notes
 
@@ -22,6 +19,10 @@ Latest release:
 Encryption v1.0.0 initial release
 AES passphrase encryption
 Uses current document as input data and overwrites
+
+## Known Issues
+
+None
 
 ### Links
 

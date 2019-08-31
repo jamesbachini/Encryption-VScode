@@ -1,8 +1,11 @@
 {
-	"name": "encryption",
-	"displayName": "Encryption",
-	"description": "AES Encryption and decryption for current file contents",
+	"name": "encryption-vscode",
+	"displayName": "Encryption VScode",
+	"description": "AES encryption and decryption for current file contents in visual stuido code",
+	"publisher": "JamesBachini",
+	"repository": "https://github.com/jamesbachini/Encryption-VScode",
 	"version": "1.0.0",
+	"icon": "encryption-vscode.png",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
