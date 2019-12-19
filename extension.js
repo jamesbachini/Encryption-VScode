@@ -15,7 +15,6 @@ const activate = (context) => {
 		const invalidRange = new vscode.Range(0, 0, vscode.window.activeTextEditor.document.lineCount, 0);
 		const fullRange = vscode.window.activeTextEditor.document.validateRange(invalidRange);
 		vscode.window.activeTextEditor.edit(edit => edit.replace(fullRange, cipherFormatted));
-		
 		vscode.window.showInformationMessage(`File Encrypted`);
 	});
 	context.subscriptions.push(encryptFunc);
