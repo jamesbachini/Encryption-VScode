@@ -3,7 +3,7 @@
 	"displayName": "Encryption VScode",
 	"description": "AES encryption and decryption for current file contents in visual stuido code",
 	"publisher": "JamesBachini",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"icon": "encryption-vscode.png",
 	"preview": true,
 	"engines": {

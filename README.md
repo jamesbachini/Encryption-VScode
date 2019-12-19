@@ -12,7 +12,12 @@ https://github.com/jamesbachini/Encryption-VScode
 
 ## Release Notes
 
-Latest release:
+Latest release: 1.0.2
+
+
+### 1.0.2
+
+Added line breaks at wordWrapColumn setting length
 
 ### 1.0.0
 
