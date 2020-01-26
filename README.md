@@ -6,6 +6,9 @@ It operates on the current document and replaces the text.
 
 `CTRL + SHIFT + P` > Type "Encrypt" or "Decrypt" > Enter a pass phrase > current document will be encrypted/decrypted.
 
+## Blog Post
+https://jamesbachini.com/how-to-encrypt-text-in-visual-studio-code-vscode/
+
 ## Repository
 https://github.com/jamesbachini/Encryption-VScode
 
