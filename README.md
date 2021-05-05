@@ -36,7 +36,9 @@ None
 
 * [Visual Studio Code](https://visualstudio.com)
 
-* [JSE](https://jsecoin.com)
-
 * [James Bachini](https://jamesbachini.com)
+
+* [Github](https://github.com/jamesbachini)
+
+
 
