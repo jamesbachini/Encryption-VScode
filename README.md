@@ -6,6 +6,8 @@ It operates on the current document and replaces the text.
 
 `CTRL + SHIFT + P` > Type "Encrypt" or "Decrypt" > Enter a pass phrase > current document will be encrypted/decrypted.
 
+NOTE: IF YOU HAVE NON-UTF8 SPECIAL CHARACTERS IN THE DOCUMENT YOU WILL GET MALFORMED UTF8 ERRORS
+
 ## Blog Post
 https://jamesbachini.com/how-to-encrypt-text-in-visual-studio-code-vscode/
 
@@ -29,6 +31,8 @@ AES passphrase encryption
 Uses current document as input data and overwrites
 
 ## Known Issues
+
+If the document has non-utf8 characters in it then it breaks Javascripts AES encryption causing the process to fail.
 
 None
 
