@@ -14,6 +14,13 @@ https://jamesbachini.com/how-to-encrypt-text-in-visual-studio-code-vscode/
 ## Repository
 https://github.com/jamesbachini/Encryption-VScode
 
+## Build Instructions
+```shell
+npm install
+npx vsce package
+npx vsce publish
+```
+
 
 ## Release Notes
 

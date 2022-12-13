@@ -21,7 +21,7 @@ const activate = (context) => {
 
 	const decryptFunc = vscode.commands.registerCommand('extension.decrypt', async () => {
 		const fullText = vscode.window.activeTextEditor.document.getText();
-		const cleanText = fullText.split("\r\n").join('');
+		const cleanText = fullText.split(/\s/g).join('');
 		const passString = await vscode.window.showInputBox({ prompt: 'Provide your passphrase', placeHolder: 'My passphrase',	password: true, validateInput: value => (value.length == 0) ? "Passphrase cannot be empty" : null });
 		const bytes  = CryptoJS.AES.decrypt(cleanText, passString);
 		const plainText = bytes.toString(CryptoJS.enc.Utf8);
