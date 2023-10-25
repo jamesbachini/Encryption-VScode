@@ -58,6 +58,6 @@
 		"vscode-test": "^1.0.2"
 	},
 	"dependencies": {
-		"crypto-js": "^3.1.9-1"
+		"crypto-js": "^4.2.0"
 	}
 }
